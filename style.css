@@ -48,15 +48,39 @@ form {
 label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
-    background-color: blue;
 }
-textarea {
-    background-color: red;
-    color: white;
+input, textarea {
+    background-color: white;
+    color: red;
     height: 30px;
-    width: 150px;
+    width: 40%;
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    border-style: groove;
 }
-input {
-    background-color: red;
-    color: white;
+.labels {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+button {
+    width: 20%;
+    border: 2px solid black;
+    border-style: double;
+    color: black;
+    background-color: lightgrey;
+    margin-bottom: 30px;
+}
+button:hover {
+    transform: scaleX(120deg);
+    transform: scaleY(50deg);
+    font-size: larger;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+.forms {
+    border: 3px solid navy;
+    border-style: ridge;
 }
