@@ -42,3 +42,21 @@ li {
     background-size: 20px;
     line-height: 30px;
 }
+form {
+    text-align: center;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: blue;
+}
+textarea {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+input {
+    background-color: red;
+    color: white;
+}
